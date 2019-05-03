@@ -58,7 +58,8 @@ class App extends Component{
       color: "red",
       font: "inherit",
       outline: "none",
-      cursor: "pointer"
+      cursor: "pointer",
+      marginLeft: "1em"
     }
     let persons = null;
     if(this.state.showPersons)
